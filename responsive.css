@@ -1,0 +1,43 @@
+@media (max-width: 300px) {
+  .header h1 {
+    font-size: 8vw;
+  }
+}
+@media (max-width: 800px) {
+  img {
+    display: none;
+  }
+  .sandwich table,
+  .pasta table,
+  .bevrages table {
+    width: 100%;
+    margin: 10px;
+  }
+  .bevrages {
+    color: whitesmoke;
+  }
+  #btn {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .sandwich table {
+    margin-left: 20px;
+  }
+  .sandwich img {
+    margin-right: 20px;
+  }
+  .pasta img {
+    margin: 0 10px;
+  }
+  .pasta table {
+    margin-right: 20px;
+  }
+  .bevrages table {
+    margin-left: 10px;
+  }
+  .bevrages img {
+    margin: 0 10px;
+  }
+}
